@@ -4,9 +4,9 @@ Simple 3d visualizer for DNA using a sequence and its dot-bracket notation.
 
 Built with:
 
-D3
-ES6
-Material UI
+* D3
+* ES6
+* Material UI
 
 # Instructions
 
