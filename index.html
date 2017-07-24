@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8">
+	<head>
+		<link rel="stylesheet" href="mui.min.css" type="text/css" media="all">
+		<link rel="stylesheet" href="style.css" type="text/css" media="all">
+	</head>
+	<body>
+		<header class="header header-shadow">
+			<nav class="header mui-appbar">
+				<div class="mui-container">
+					<h1 class="mui--text-display2">DNA Sequence graph</h1>
+				</div>
+			</nav>
+		</header>
+		</section>
+		<section class="wrapper mui-container">
+			<p class="mui--text-subhead">Enter a sequence and its corresponding dot-bracket notation below.</p>
+			<div class="mui-panel">
+				<form class="mui-form">
+					<div class="mui-textfield">
+					<input class="sequence-input" value="Enter a sequence string" />
+					</div>
+					<div class="mui-textfield">
+					<input class="dbr-input" value="Enter the dotbracket notation string" />
+					</div>
+					<button type="submit" class="sequence-btn mui-btn mui-btn--raised">Go!</button>
+				</form>
+			</div>
+			<p class="log mui--text-body"></p>
+			<svg id="visualizer" width="960" height="600"></svg>
+		</section>
+		<script src="d3.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>

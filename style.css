@@ -1,0 +1,53 @@
+body {
+	background-color: #f5f5f5;
+}
+
+input {
+	width: 100%;
+}
+
+.header {
+	margin-bottom: 40px;
+}
+
+.node {
+    fill: #ccc;
+    stroke: #fff;
+    stroke-width: 2px;
+}
+
+.links line {
+	stroke: #999;
+	stroke-opacity: 0.6;
+}
+
+.nodes circle {
+	stroke: #fff;
+	stroke-width: 1.5px;
+}
+
+.nodes circle.a {
+	fill: magenta;
+}
+
+.nodes circle.c {
+	fill: cyan;
+}
+
+.nodes circle.g {
+	fill: yellow;
+}
+
+.nodes circle.t {
+	fill: black;
+}
+
+.link {
+    stroke: #777;
+    stroke-width: 2px;
+}
+
+.text {
+	color: black;
+	z-index: 100;
+}
